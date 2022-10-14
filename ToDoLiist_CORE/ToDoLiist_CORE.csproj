@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ToDoList_ModelView\ToDoList_ModelView.csproj" />
+    <ProjectReference Include="..\ToDoList_Model\ToDoList_DBModel.csproj" />
+	  <PackageReference Include="AutoMapper" Version="11.0.1" />
+	  <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.17" />
+	  <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+	  
+  </ItemGroup>
+
+</Project>

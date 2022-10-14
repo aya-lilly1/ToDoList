@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+		<PackageReference Include="Serilog" Version="2.11.0" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\ToDoLiist_CORE\ToDoLiist_CORE.csproj" />
+	  <ProjectReference Include="..\ToDoList_MainPro\ToDoList_MainPro.csproj" />
+	  <ProjectReference Include="..\ToDoList_ModelView\ToDoList_ModelView.csproj" />
+	  <ProjectReference Include="..\ToDoList_Model\ToDoList_DBModel.csproj" />
+	</ItemGroup>
+
+</Project>
